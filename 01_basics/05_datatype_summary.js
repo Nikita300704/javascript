@@ -33,3 +33,13 @@ const myfunction=function(){
 console.log("hello world");
 }
 //data type return of non prmitive is object for ex=for function it in object function 
+/*
+Data type   :-   Returns
+undefined   :-   undefined
+null   :-   object
+function   :-   object function(but in compiler it returns function only)
+boolean    :-   boolean
+bigInt   :-   bigInt
+number   :-   number
+string    :-   string
+object     :-   object*/ 
