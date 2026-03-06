@@ -1,0 +1,35 @@
+/* data type is divided into 2 types how we can store in memory and how we are accessing that from the memory 
+->primitive=> 7 categories : string,number,boolean,null,undefined,symbol,BigInt
+-> non-primitive/reference type=>arrays,objects,functions
+
+JavaScript is a dynamically typed language, not statically typed. This means that variable types are checked during runtime, and you do not need to explicitly declare the data type of a variable when you create it
+
+*/
+const score=100
+const scoreValue=100.3
+const isLoggedIn=false
+const outsideTemp=null
+let userEmail;
+//symbol
+const id=Symbol('123');
+const anotherid =Symbol('123')//even if values of both symbols are same but still not give same output
+console.log(id===anotherid);//not same 
+
+const  bigNumber=3454565657676766664544n
+
+//reference 
+//array,objects,funcions 
+
+//array 
+const heros=["shaktiman","nagarraj"]
+//objects in key value pair
+let myObj={
+    name:"hitesh",
+    age:22,
+}
+//functions
+
+const myfunction=function(){
+console.log("hello world");
+}
+//data type return of non prmitive is object for ex=for function it in object function 
