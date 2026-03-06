@@ -43,3 +43,28 @@ bigInt   :-   bigInt
 number   :-   number
 string    :-   string
 object     :-   object*/ 
+
+
+/* MEMORY (STACK AND HEAP)
+
+PRIMITIVE=>STACK stack m copy milti h 
+HEAP=>NON PRIMITIVE  refrence milta h origin value m change hoga 
+ */
+
+let myYoutube="nikita.com";
+let anothername=myYoutube;
+anothername="chai aur code "
+console.log(myYoutube);
+console.log(anothername)
+//o/p m alag alag isliye bcz we gave copy to anothername 
+
+
+let user={
+email:"niki",
+upi:"user@gmail",
+}
+let user2=user;//isko ussi ka reference milega 
+user2.email="nikita@gmail.com";
+
+console.log(user.email);
+console.log(user2.email);
